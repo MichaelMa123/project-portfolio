@@ -1,0 +1,42 @@
+{
+  "design": {
+    "design_info": {
+      "boundary_crc": "0x0",
+      "device": "xc7a200tfbg484-2L",
+      "gen_directory": "../../../../project_1.gen/sources_1/bd/design_1",
+      "name": "design_1",
+      "rev_ctrl_bd_flag": "RevCtrlBdOff",
+      "synth_flow_mode": "Hierarchical",
+      "tool_version": "2024.2"
+    },
+    "design_tree": {
+      "sw_debounce_0": ""
+    },
+    "components": {
+      "sw_debounce_0": {
+        "vlnv": "xilinx.com:module_ref:sw_debounce:1.0",
+        "ip_revision": "1",
+        "xci_name": "design_1_sw_debounce_0_0",
+        "xci_path": "ip\\design_1_sw_debounce_0_0\\design_1_sw_debounce_0_0.xci",
+        "inst_hier_path": "sw_debounce_0",
+        "reference_info": {
+          "ref_type": "hdl",
+          "ref_name": "sw_debounce",
+          "boundary_crc": "0x0"
+        },
+        "ports": {
+          "sw_in": {
+            "direction": "I"
+          },
+          "clk": {
+            "type": "clk",
+            "direction": "I"
+          },
+          "sw_out": {
+            "direction": "O"
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,15 @@
+{
+   "ActiveEmotionalView":"Default View",
+   "Default View_ScaleFactor":"1.25",
+   "Default View_TopLeft":"-488,-189",
+   "ExpandedHierarchyInLayout":"",
+   "guistr":"# # String gsaved with Nlview 7.8.0 2024-04-26 e1825d835c VDI=44 GEI=38 GUI=JA:21.0
+#  -string -flagsOSRD
+preplace portBus led -pg 1 -lvl 2 -x -30 -y -40 -defaultsOSRD
+preplace inst sw_debounce_0 -pg 1 -lvl 1 -x -150 -y -40 -defaultsOSRD
+preplace netloc sw_debounce_0_sw_out 1 1 1 N -40
+levelinfo -pg 1 -270 -150 -30
+pagesize -pg 1 -db -bbox -sgen -370 -110 260 140
+"
+}
+0

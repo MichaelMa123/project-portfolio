@@ -1,0 +1,18 @@
+Time resolution is 1 ps
+Time = 0 | led = xxxx
+Time = 10000 | led = 0001
+Time = 30000 | led = 0010
+Time = 50000 | led = 0100
+Time = 70000 | led = 1000
+Time = 90000 | led = 0001
+Time = 110000 | led = 0010
+Time = 130000 | led = 0100
+Time = 150000 | led = 1000
+Time = 170000 | led = 0001
+Time = 190000 | led = 0010
+$finish called at time : 200 ns : File "C:/Users/srche/project_1/project_1.srcs/sim_1/new/tb_updown_counter.sv" Line 21
+Time = 210000 | led = 0100
+Time = 230000 | led = 1000
+Time = 250000 | led = 0001
+Time = 270000 | led = 0010
+Time = 290000 | led = 0100
